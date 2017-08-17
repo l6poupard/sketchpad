@@ -1,0 +1,50 @@
+
+#container {
+    position: relative;
+    font-size: 0px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+#header {
+  text-align: center;
+  color: blue;
+  margin: auto;
+}
+
+.row{
+  position: relative;
+  display: block;
+  margin: auto;
+}
+
+.box{
+width: 15px;
+height: 15px;
+border-radius: 1px;
+margin: auto;
+padding: 0;
+background-color: grey;
+display: inline-block;
+float: left;
+}
+
+.draw {
+  background-color: blue;
+}
+
+#clear {
+  display: block;
+  margin: 15px auto;
+}
+
+
+.colors {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.colors button {
+  padding: 0 5px;
+  margin: 0 10px;
+}
